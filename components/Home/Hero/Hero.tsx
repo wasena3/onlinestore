@@ -9,7 +9,7 @@ const Hero = () => {
     flex justify-center flex-col'>
             <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
                 {/* Text Side */}
-                <div>
+                <div data-aos="fade-up">
                     <p className='text-sm sm:text-base md:text-xl font-bold text-green-950'>
                         Take Control of Your Finances
                     </p>
@@ -19,7 +19,7 @@ const Hero = () => {
                             className='text-2xl sm:text-3xl md:text-4xl font-bold text-green-500'>
                             FlashDev</span>
                     </h1>
-                    <p className='text-xs sm:text-sm md:text-base font-medium text-gray-700'>Lorem, ipsum dolor sit amet 
+                    <p className='text-xs sm:text-sm md:text-base font-medium text-gray-700'>Lorem, ipsum dolor sit amet
                         consectetur adipisicing elit.
                         Quaerat officia esse nesciunt explicabo laudantium culpa
                         quibusdam nemo laborum consequatur nobis!</p>
@@ -95,7 +95,11 @@ const Hero = () => {
                     </div>
                 </div>
                 {/* Image Side */}
-                <div className='mx-auto hidden xl:block'>
+                <div
+                    data-aos="fade-down"
+                    data-aos-delay="150"
+                    className='mx-auto hidden xl:block'
+                >
                     <Image src="/images/hero.jpg" alt='hero' width={900} height={900} />
                 </div>
             </div>

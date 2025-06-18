@@ -13,25 +13,36 @@ const Pricing = () => {
             </p>
             <div className='w-[90%] mx-auto mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 
             items-center'>
-                <div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                >
                     {/* price card */}
-                    <PriceCard 
-                    time="3 Month"
-                    price="29.99"
+                    <PriceCard
+                        time="3 Month"
+                        price="29.99"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="100"
+                >
                     {/* price card */}
-                    <PriceCard 
-                    time="12 Month"
-                    price="39.99"
+                    <PriceCard
+                        time="12 Month"
+                        price="39.99"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="200"
+                >
                     {/* price card */}
-                    <PriceCard 
-                    time="Lifetime"
-                    price="9.99"
+                    <PriceCard
+                        time="Lifetime"
+                        price="9.99"
                     />
                 </div>
             </div>

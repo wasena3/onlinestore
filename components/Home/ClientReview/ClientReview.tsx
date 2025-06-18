@@ -14,28 +14,43 @@ const ClientReview = () => {
             </p>
             {/* grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 w-[80%] mx-auto">
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    data-aos-anchor-placement="top-center"
+                >
                     <ClientReviewCard
                         image="/images/u4.jpg"
                         name="Jessica Doe"
                         rating="4.7"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="100"
+                >
                     <ClientReviewCard
                         image="/images/utp.jpg"
                         name="John Doe"
                         rating="4.5"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="200"
+                >
                     <ClientReviewCard
                         image="/images/t2.jpg"
                         name="Alexia Doe"
                         rating="4.7"
                     />
                 </div>
-                <div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="300"
+                >
                     <ClientReviewCard
                         image="/images/ut2.jpg"
                         name="Eren Jaeger"

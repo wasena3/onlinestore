@@ -31,7 +31,10 @@ const Team = () => {
                 </div>
                 {/* Images */}
                 <div className='sm:flex items-center space-y-4 sm:space-y-0 sm:space-x-4 lg:col-span-3'>
-                    <div className='relative overflow-hidden'>
+                    <div 
+                    data-aos="fade-right"
+                    data-aos-anchor-placement="top-center"
+                    className='relative overflow-hidden'>
                         <Image
                             src="/images/t1.jpg"
                             alt="team"
@@ -44,7 +47,11 @@ const Team = () => {
                             <p className='text-sm text-gray-200'>(Founder)</p>
                         </div>
                     </div>
-                    <div className='relative overflow-hidden'>
+                    <div 
+                    data-aos="fade-right"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="100"
+                    className='relative overflow-hidden'>
                         <Image
                             src="/images/ta2.jpg"
                             alt="team"

@@ -56,7 +56,10 @@ const Services = () => {
                 {/* grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center gap-y-12 mt-16">
                     {services.map((service, index) => (
-                        <div key={index} className="flex items-center space-x-5">
+                        <div key={index}
+                            data-aos="fade-right"
+                            data-aos-anchor-placement="top-center"
+                            className="flex items-center space-x-5">
                             <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col bg-yellow-100 bg-opacity-20">
                                 {service.icon}
                             </div>
