@@ -1,6 +1,7 @@
 import BoxText from '@/components/Helper/BoxText'
 import Image from 'next/image'
 import React from 'react'
+import { FaArrowRight } from 'react-icons/fa'
 
 const About = () => {
     return (
@@ -26,13 +27,13 @@ const About = () => {
                         veniam maiores amet quod deserunt
                     </p>
                     <button className='mt-5 text-[#00b4d8] font-bold pb-1 border-b-2 border-[#00b4d8]'>
-                        Learn More &#8594;
+                        Learn More <FaArrowRight />;
                     </button>
                     <div className="mt-8 border-l-2 border-gray-200">
                         <div className="ml-6">
                             <p className='text-green-650 font-medium'>
-                                &quot; The many integrations that can be linked really help me see data from other
-                                tools I also use. &quot;
+                                "The many integrations that can be linked really help me see data from other
+                                tools I also use."
                             </p>
                             <div className="flex items-center space-x-6 mt-6">
                                 <Image src={"/images/u1.jpg"} alt='user' width={40} height={40} className='rounded-full'/>
